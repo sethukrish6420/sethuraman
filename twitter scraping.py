@@ -13,7 +13,7 @@ st.set_page_config(page_title="Twitter Scraper", page_icon=":guardsman:", layout
 st.title("Twitter Scraper")
 
 # Get search keyword or hashtag
-keyword = st.text_input("Enter keyword or hashtag to search")
+keyword = st.text_input("Enter keyword or hashtag to search",value='enter keyword')
 
 # Get date range
 start_date = st.date_input("Enter start date (YYYY-MM-DD)")
