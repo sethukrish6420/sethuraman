@@ -6,7 +6,7 @@ import streamlit as st
 import plotly.express as px
 
 st.title('phonepe_pulse_dataset')
-
+st.title('phonepe_pulse_dataset')
 st.markdown("Visit the [Link](https://github.com/sethukrish6420/sethuraman/blob/main/project.ipynb) for extract the data and store the data into mysql.")
 value = ['agg_tran','agg_user','map_tran','map_user','top_tran','top_tran_pin','top_user','top_user_pin']
 selected_option = st.sidebar.selectbox('Choose an option:', value)
